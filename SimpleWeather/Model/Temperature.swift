@@ -16,8 +16,3 @@ struct Temperature: Codable, Hashable {
     let value: Double
 }
 
-extension Double {
-    var asInt: Int {
-        Int(self.rounded())
-    }
-}

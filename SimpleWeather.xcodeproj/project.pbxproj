@@ -24,6 +24,7 @@
 		554E9BE1296D80100031BEBB /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E9BE0296D80100031BEBB /* WeatherData.swift */; };
 		554E9BE6296DABF30031BEBB /* ForecastListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E9BE5296DABF30031BEBB /* ForecastListItemView.swift */; };
 		554E9BE8296DAD200031BEBB /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E9BE7296DAD200031BEBB /* PreviewData.swift */; };
+		55E2BCA7296DB26F0080197D /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2BCA6296DB26F0080197D /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		554E9BE4296DAAE50031BEBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		554E9BE5296DABF30031BEBB /* ForecastListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListItemView.swift; sourceTree = "<group>"; };
 		554E9BE7296DAD200031BEBB /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		55E2BCA6296DB26F0080197D /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				554E9BD5296D7F1E0031BEBB /* Model */,
 				554E9BDF296D7FEC0031BEBB /* View */,
 				554E9BDE296D7FE20031BEBB /* ViewModel */,
+				55E2BCA5296DB25D0080197D /* Extenisons */,
 				554E9BA8296D711F0031BEBB /* Assets.xcassets */,
 				554E9BAA296D711F0031BEBB /* Preview Content */,
 			);
@@ -196,6 +199,14 @@
 				554E9BCE296D74C30031BEBB /* API.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		55E2BCA5296DB25D0080197D /* Extenisons */ = {
+			isa = PBXGroup;
+			children = (
+				55E2BCA6296DB26F0080197D /* Double+Extensions.swift */,
+			);
+			path = Extenisons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E2BCA7296DB26F0080197D /* Double+Extensions.swift in Sources */,
 				554E9BD4296D758A0031BEBB /* LocationManager.swift in Sources */,
 				554E9BD9296D7F4E0031BEBB /* WeeklyForecast.swift in Sources */,
 				554E9BDD296D7F610031BEBB /* Temperature.swift in Sources */,
